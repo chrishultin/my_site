@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  my-site:
+    image: chrishultin/my-site
+    build: .
+    ports:
+      - '8080:80'
